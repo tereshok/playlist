@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Play List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+</head>
+<body>
+        <div class="ba-container">
+                
+                <div class="ba-playlist">
+                    <h3 class="ba-playlist--title">PlayList</h3>
+                    <ul class="ba-playlist--list" id="playlist">
+                        <script id="playlist-li" type="text/template">
+                            <li class="ba-tune">
+                
+                                <div class="ba-tune--top">
+                                    <span class="ba-tune--duration">{{duration}}</span>
+                                    <span class="ba-tune--author">{{author}}</span>
+                                </div>
+                                
+                                <div class="ba-tune--song">
+                                    {{song}}
+                                </div>
+                                
+                            </li>
+                        </script>
+                    </ul>
+                </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

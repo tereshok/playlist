@@ -1,0 +1,70 @@
+
+body {
+    font: 300 16px/1.2 "Roboto", sans-serif;
+    background: #003056 url("../2.jpg") 50%;
+    color: #574d72;
+}
+ .ba-container {
+   max-width: 1200px;
+ padding: 50px 20px;
+ margin: 0 auto;
+ }
+  
+  .ba-playlist {
+    background: #fff;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 0 5px rgba(0, 0, 0, 0.4);
+    padding: 30px 20px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .ba-playlist--title {
+    text-align: center;
+    font-weight: 500;
+    margin: 0 0 25px;
+  }
+  
+  .ba-playlist--list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .ba-tune {
+    border-top: 1px solid #e4e2e2;
+    padding-top: 10px;
+    margin-top: 10px;
+  }
+  
+  .ba-tune--top {
+    font-size: 80%;
+    margin-bottom: 5px;
+    color: #a4a3a9;
+  }
+  
+  .ba-tune--duration {
+    display: inline-block;
+    padding-right: 10px;
+    margin-right: 6px;
+    border-right: 1px solid rgba(164, 163, 169, 0.6);
+  }
+  
+  .ba-tune--author {
+    text-transform: capitalize;
+  }
+  
+  .ba-tune--song {
+    font-weight: 500;
+  }
+  
+  .ba-tune--song::first-letter {
+    text-transform: uppercase;
+  }
+  
+  
+  .ba-hidden {
+    display: none;
+  }
+  
